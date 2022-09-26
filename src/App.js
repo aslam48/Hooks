@@ -10,14 +10,35 @@ import './App.css';
 // import UseEffHook1 from './Component/UseEffHook1';
 // import IntervalCount  from './Component/IntervalClassCounter';
 // import ComponentC from "./Component/ComponentC";
+// import UseReducer from './Component2.js/UseReducer';
+// import UseReducer2 from './Component2.js/UseReducer2';
+import UseReducer3 from './Component2.js/UseReducer3';
 
 
+
+
+// Context api
 //  export const UserContext = React.createContext()
 //  export const ChannelContext = React.createContext()
 
 function App() {
   return (
     <div className="App">
+       {/* component2 */}
+
+       {/* <UseReducer/> */}
+       {/* <UseReducer2/> */}
+       <UseReducer3/>
+
+
+
+
+
+
+
+      {/* Component */}
+
+
      {/* <HookCounter/> */}
      {/* <HookCounter2/> */}
      {/* <HookCounter3/> */}

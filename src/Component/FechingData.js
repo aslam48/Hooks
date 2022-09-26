@@ -26,6 +26,7 @@ function FechingData() {
         <input type="text" value={id} onChange={e => Setid(e.target.value)}/>
         <button  type="button" onClick={handleClick}>fech post</button>
        <h2>{post.title}</h2>
+       
         {/* {
             posts.map(post => <li key={post.id}>{post.title}</li>)
         } */}
